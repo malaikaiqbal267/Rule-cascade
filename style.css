@@ -1,0 +1,44 @@
+/* last rule */
+/* *{
+    color: blue;
+} */
+
+/* *{
+    color: red;
+} */
+
+/* specificity */
+
+/* *{
+    color: red;
+} 
+
+li{
+    color: aquamarine;
+}
+
+p#intro{
+    color: blueviolet;
+} */
+/* Inharitance */
+
+/* div{
+    color: blue;
+}
+
+p{
+    font-family: cursive;
+    color: inherit;
+} */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #665544;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.page{
+   border: inherit;
+   background-color: #efefef;
+    padding: inherit;
+}
